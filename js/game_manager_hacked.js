@@ -53,7 +53,7 @@ GameManager.prototype.setup = function () {
     // Add the initial tiles
 //	    this.addStartTiles();
 this.grid.insertTile(new Tile({x:0,y:0}, 1024));
-this.grid.insertTile(new Tile({x:1,y:0}, 1024));
+this.grid.insertTile(new Tile({x:4,y:4}, 1024));
   }
 
   // Update the actuator
